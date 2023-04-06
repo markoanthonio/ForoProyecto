@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.body{
+    background-color: #461F1F;
+}
+
+.header{
+    background-color: #8C2424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    font-size: 20px;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 80%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.header .button{
+    color: rgb(0, 0, 0);
+    padding: 2px 1px;
+    background: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.header .button i:hover{
+    transform: scale(1.2);
+}
+
+/* boton q sale */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    max-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: rgb(255, 255, 255);
+    padding: 1px 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #461F1F
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.img{
+    max-width: 100%;
+    width: 60px;
+    height: 55px;
+    margin-top: 3px;
+    margin-right: 1px;
+}
+
+.gameplay{
+    max-width: 100%;
+    max-height: 100%;
+    width: 630px;
+    height: 400px;
+}
+
+.v1{
+    border-left: 6px solid black;
+    height: 800px;
+    margin-top: 810px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.fuentealbilla{
+    font-family: 'DotGothic16', sans-serif;
+}
