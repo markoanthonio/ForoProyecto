@@ -122,3 +122,17 @@
 .fuentealbilla{
     font-family: 'DotGothic16', sans-serif;
 }
+
+.fuentenoticias{
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 3px  0px 0px white,
+               0px  3px 0px white,
+              -3px  0px 0px white,
+               0px -3px 0px white;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 1px;
+}
