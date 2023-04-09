@@ -140,3 +140,19 @@ body{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+/* Clase para imágenes de noticias */
+
+.imgnoti{
+    width: 80px; 
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 150px;
+}
+
+.textnoti{
+    color: black; 
+    font: bold; 
+    font-size: 22px;
+}
