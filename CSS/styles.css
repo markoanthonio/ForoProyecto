@@ -157,6 +157,29 @@ body{
     font-size: 22px;
 }
 
+/* Esto es para noticia1 One Piece */
+
+.imgnoticias{
+    width: 640px;
+    border-radius: 3px;
+}
+
+/* Clase para los titulos */
+
+.titulo{
+    font-size: 90px; 
+    color: white; 
+    font-weight: bold;
+}
+
+.titulonoti{
+    font-size: 50px; 
+    color: white; 
+    font-weight: bold;
+    text-align: center;
+    margin-top: 75px;
+}
+
 /* Formulario Inicio Sesión */
 
 .formulario{
