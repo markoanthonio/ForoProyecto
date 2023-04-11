@@ -200,7 +200,7 @@ body{
 
 form .username{
     position: relative;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 0, 0);
     margin: 30px 0;
 }
 
@@ -334,3 +334,5 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
+
+/*Registrarse*/
