@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--CSS only-->
+    <link rel="stylesheet" href="../CSS/stylesForm.css">
     <link rel="stylesheet" href="../CSS/styles.css">
-    <link rel="stylesheet" href="../CSS/styles1.css">
     <!--Java-->
     <script src="https://kit.fontawesome.com/d4990cf30e.js" crossorigin="anonymous"></script>
     <!--Fuentes-->
@@ -47,26 +47,32 @@
             </div>
         </div>
     </header>
-    <div>
-        <form class="formulario">
-            <h2>Registro</h2>
-            <div class="input-container">
-              <i class="fa fa-user icon"></i>
-              <input class="input-field" type="text" placeholder="Nombre Usuario" name="usrnm">
+        <div>
+            <form method="post" class="formulario">
+                <h1>Inicio de sesión</h1>
+                <div>
+                    <label>Nombre Usuario</label><br>
+                    <input type="text" required name="user">
+                </div>
+                <div>
+                    <label>Nombres</label><br>
+                    <input type="text" required name="name">
+                </div>
+                <div>
+                    <label>Apellidos</label><br>
+                    <input type="text" required name="lastname">
+                </div>
+                <div>
+                    <label>Correo</label><br>
+                    <input type="text" required name="email">
+                </div>
+                <div>
+                    <button class="buttonS">CONFIRMAR</button>
+                </div>
+
+            </form>
             </div>
-          
-            <div class="input-container">
-              <i class="fa fa-envelope icon"></i>
-              <input class="input-field" type="text" placeholder="Correo" name="email">
             </div>
-          
-            <div class="input-container">
-              <i class="fa fa-key icon"></i>
-              <input class="input-field" type="password" placeholder="Contraseña" name="psw">
-            </div>
-          
-            <button type="submit" class="btn">Registrarse</button>
-          </form>
     </div>
     
 
