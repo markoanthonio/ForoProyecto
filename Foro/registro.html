@@ -49,22 +49,35 @@
     </header>
         <div>
             <form method="post" class="formulario">
-                <h1>Inicio de sesión</h1>
+                <h1>Registro</h1>
                 <div class="usuario">
-                    <label>Nombre Usuario</label><br>
+                    <label>Nombre Usuario:</label><br>
                     <input type="text" required name="user">
                 </div>
-                <div>
-                    <label>Nombres</label><br>
+                <div class="usuario">
+                    <label>Nombres:</label><br>
                     <input type="text" required name="name">
                 </div>
-                <div>
-                    <label>Apellidos</label><br>
+                <div class="usuario">
+                    <label>Apellidos:</label><br>
                     <input type="text" required name="lastname">
                 </div>
-                <div>
-                    <label>Correo</label><br>
+                <div class="usuario">
+                    <label>Correo:</label><br>
                     <input type="text" required name="email">
+                </div>
+                <div class="usuario">
+                    <label>Telefono:</label><br>
+                    <select class="telefono" type="tel" required name="telefono">
+                        <option value="chile">+569</option>
+                        <option value="argentina">+54</option>
+                        <option value="brasil">+55</option>
+                        <option value="peru">+51</option>
+                        <option value="venezuela">+598</option>
+                        <option value="colombia">+57</option>
+                        <input class="phone" type="tel" required name="phone">
+                    </select>
+                    
                 </div>
                 <div>
                     <button class="buttonS">CONFIRMAR</button>
