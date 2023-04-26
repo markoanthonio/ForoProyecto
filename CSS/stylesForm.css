@@ -167,3 +167,13 @@ input[type="submit"]:hover{
   text-align: center;
   color: black;
 }
+
+.usuario input{
+  width: 100%;
+  padding: 0 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
