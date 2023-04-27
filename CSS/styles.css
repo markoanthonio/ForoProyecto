@@ -181,3 +181,9 @@ body{
     text-align: center;
     margin-top: 75px;
 }
+
+.txtimg{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
