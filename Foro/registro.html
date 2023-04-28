@@ -51,24 +51,24 @@
             <form method="post" class="formulario">
                 <h1>Registro</h1>
                 <div class="usuario">
-                    <label>Nombre Usuario:</label><br>
-                    <input type="text" required name="user">
+                    <label>*Nombre Usuario:</label><br>
+                    <input type="text" required id="user">
                 </div>
                 <div class="usuario">
-                    <label>Nombres:</label><br>
-                    <input type="text" required name="name">
+                    <label>*Nombres:</label><br>
+                    <input type="text" required id="name">
                 </div>
                 <div class="usuario">
-                    <label>Apellidos:</label><br>
-                    <input type="text" required name="lastname">
+                    <label>*Apellidos:</label><br>
+                    <input type="text" required id="lastname">
                 </div>
                 <div class="usuario">
-                    <label>Correo:</label><br>
-                    <input type="text" required name="email">
+                    <label>*Correo:</label><br>
+                    <input type="text" required id="email">
                 </div>
                 <div class="usuario1">
-                    <label>Telefono:</label><br>
-                    <select class="telefono" type="tel" required name="telefono">
+                    <label>*Telefono:</label><br>
+                    <select class="telefono" type="tel" required id="telefono">
                         <option value="chile">+569</option>
                         <option value="argentina">+54</option>
                         <option value="brasil">+55</option>
@@ -80,7 +80,8 @@
                     
                 </div>
                 <div>
-                    <button class="buttonS">CONFIRMAR</button>
+                    <button type="submit" class="buttonS" id="botonS">
+                        CONFIRMAR</button>
                 </div>
                 <br>
                 <div>
@@ -106,5 +107,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+        /*Jquery*/
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
