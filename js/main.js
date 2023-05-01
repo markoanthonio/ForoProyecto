@@ -1,7 +1,18 @@
-function validateForm() {
-    let x = document.forms["nomuser"]["user"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
+$(document).ready(function(){
+  $("#registrar").validate({
+    rules:{
+      name:{
+        required: true,
+        minlenght: 3,
+      },
+      lastname:{
+        required: true,
+        minlenght: 3
+      },
+      email:{
+        required: true,
+        email: true
+      }
     }
-  }
+  });
+});

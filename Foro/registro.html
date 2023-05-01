@@ -48,37 +48,42 @@
         </div>
     </header>
         <div>
-            <form method="post" class="formulario">
+            <form method="post" class="formulario" id="registrar" name="registrar">
                 <h1>Registro</h1>
-                <div class="usuario">
-                    <label>*Nombre Usuario:</label><br>
-                    <input type="text" required id="user">
-                </div>
+
                 <div class="usuario">
                     <label>*Nombres:</label><br>
-                    <input type="text" required id="name">
+                    <input type="text" placeholder="Names" id="name" name="name">
                 </div>
+
                 <div class="usuario">
                     <label>*Apellidos:</label><br>
-                    <input type="text" required id="lastname">
+                    <input type="text" placeholder="LastNames" id="lastname" name="lastname">
                 </div>
+
                 <div class="usuario">
                     <label>*Correo:</label><br>
-                    <input type="text" required id="email">
+                    <input type="text" placeholder="example123@example.com" id="email" name="email">
                 </div>
+
                 <div class="usuario1">
                     <label>*Telefono:</label><br>
-                    <select class="telefono" type="tel" required id="telefono">
+                    <select class="telefono" type="tel" id="telefono">
                         <option value="chile">+569</option>
                         <option value="argentina">+54</option>
                         <option value="brasil">+55</option>
                         <option value="peru">+51</option>
                         <option value="venezuela">+598</option>
                         <option value="colombia">+57</option>
-                        <input type="tel" required name="nacionalidad">
+                        <input type="tel" id="nacionalidad" placeholder="1234-5678">
                     </select>
-                    
                 </div>
+
+                <div class="usuario">
+                    <label>*Contraseña:</label><br>
+                    <input type="password" id="password" name="password">
+                </div>
+
                 <div>
                     <button type="submit" class="buttonS" id="botonS">
                         CONFIRMAR</button>
