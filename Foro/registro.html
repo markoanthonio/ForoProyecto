@@ -48,22 +48,22 @@
         </div>
     </header>
         <div>
-            <form method="post" class="formulario" id="registrar" name="registrar">
+            <form method="post" class="formulario" id="registrar" name="registrar" required>
                 <h1>Registro</h1>
 
                 <div class="usuario">
                     <label>*Nombres:</label><br>
-                    <input type="text" placeholder="Names" id="name" name="name">
+                    <input type="text" placeholder="Names" id="name" name="name"required>
                 </div>
 
                 <div class="usuario">
                     <label>*Apellidos:</label><br>
-                    <input type="text" placeholder="LastNames" id="lastname" name="lastname">
+                    <input type="text" placeholder="LastNames" id="lastname" name="lastname" required>
                 </div>
 
                 <div class="usuario">
                     <label>*Correo:</label><br>
-                    <input type="text" placeholder="example123@example.com" id="email" name="email">
+                    <input type="text" placeholder="example123@example.com" id="email" name="email" required>
                 </div>
 
                 <div class="usuario1">
@@ -75,18 +75,18 @@
                         <option value="peru">+51</option>
                         <option value="venezuela">+598</option>
                         <option value="colombia">+57</option>
-                        <input type="tel" id="nacionalidad" placeholder="1234-5678">
+                        <input type="tel" id="nacionalidad" placeholder="1234-5678" required>
                     </select>
                 </div>
 
                 <div class="usuario">
                     <label>*Contraseña:</label><br>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
                 </div>
 
                 <div>
-                    <button type="submit" class="buttonS" id="botonS">
-                        CONFIRMAR</button>
+                    <button type="submit" class="buttonS" id="botonS">CONFIRMAR</button>
+                    <p class="warnings" id="warnings"></p>
                 </div>
                 <br>
                 <div>
@@ -112,7 +112,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-        /*Jquery*/
+
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="../js/main.js"></script>
 </body>

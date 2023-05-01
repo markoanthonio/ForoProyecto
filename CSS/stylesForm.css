@@ -240,17 +240,17 @@ form .usuario1{
   font-size: 16px;
 }
 
-.validation{
-  font-size: 10px;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
 form ::placeholder{
   color: white;
   font-size: 15px;
   opacity: 50%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #B06AB3;
+  padding-top: 20px;
 }
