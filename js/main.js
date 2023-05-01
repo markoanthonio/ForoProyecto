@@ -3,11 +3,11 @@ $(document).ready(function(){
     rules:{
       name:{
         required: true,
-        minlenght: 3,
+        minlength: 3,
       },
       lastname:{
         required: true,
-        minlenght: 3
+        minlength: 3
       },
       email:{
         required: true,
