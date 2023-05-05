@@ -6,6 +6,7 @@ $(document).ready(function(){
     var correo=$("#email").val();
     var telefono=$("#telefono").val();
     var clave=$("#password").val();
+    var clave2=$("#password2").val();
 
     var msjMostrar="";
     let enviar=false;
@@ -47,8 +48,12 @@ $(document).ready(function(){
     }
     var passw=clave.trim().charAt(0);
     if(!(passw.toUpperCase() === passw)){
-      msjMostrar+="<br>La contraseña debe tener una mayuscula al comienzo";
+      msjMostrar+="<br>La contraseña debe tener una mayuscula al comienzo.";
       enviar=true;
+    }
+    var pass = clave2.trim();
+    if (!(passw === pass)){
+      msjMostrar += "<br> Debe ingresar la misma contraseña."
     }
     if(enviar){
   
