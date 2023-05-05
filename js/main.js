@@ -47,7 +47,7 @@ $(document).ready(function(){
     }
     var passw=clave.trim().charAt(0);
     if(!(passw.toUpperCase() === passw)){
-      msjMostrar+="<br>La contraseña debe una mayuscula al comienzo";
+      msjMostrar+="<br>La contraseña debe tener una mayuscula al comienzo";
       enviar=true;
     }
     if(enviar){
@@ -55,7 +55,7 @@ $(document).ready(function(){
       $("#warnings").html(msjMostrar);
     }
     else{
-      $("#warnings").html("Enviado");
+      $("#warnings").html("Usuario registrado");
     }
   });
 });
