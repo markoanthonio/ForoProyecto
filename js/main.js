@@ -52,8 +52,9 @@ $(document).ready(function(){
       enviar=true;
     }
     var pass = clave2.trim();
-    if (!(passw === pass)){
-      msjMostrar += "<br> Debe ingresar la misma contraseña."
+    if (!(pass === passw)){
+      msjMostrar += "<br> Debe ingresar la misma contraseña.";
+      enviar=true;
     }
     if(enviar){
   
@@ -64,3 +65,4 @@ $(document).ready(function(){
     }
   });
 });
+console.log(pass);
