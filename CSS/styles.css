@@ -187,3 +187,10 @@ body{
     color: white;
     text-align: center;
 }
+
+/* Clase para imagen de usuario en seccion FORO */
+
+.fotouser{
+    width: 100%;
+    max-width: 30px;
+}
