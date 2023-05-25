@@ -174,6 +174,7 @@ input[type="submit"]:hover{
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-color: whitesmoke;
+  font-size: 13px;
 }
 
 .usuario input{
@@ -254,4 +255,18 @@ form ::placeholder{
   margin: auto;
   color: white;
   padding-top: 20px;
+}
+
+.containerr{
+  background-color: red;
+  text-align: center;
+  margin: 30% 40%;
+  color: white;
+  background-size: 50%;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form recuperar{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
