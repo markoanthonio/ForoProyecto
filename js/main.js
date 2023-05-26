@@ -66,3 +66,37 @@ $(document).ready(function(){
   });
 });
 console.log(pass);
+
+$(document).ready(function(){
+  $("#recuperar").submit(function(e){
+    e.preventDefault();
+    var correo=$("#email").val();
+
+    var msjMostrar="";
+    let enviar=False;
+
+    if(correo.trim().length<10 || correo.trim().length>35){
+      msjMostrar+="<br> El correo debe ser de mínimo 10 caracteres, hasta 35 caracteres.";
+      enviar=true;
+    }
+
+    if(correo.indexOf('.') == -1){
+      msjMostrar += "<br> Debe ingresar '.com', '.cl', etc.";
+      enviar = true;
+    }
+
+    if(especiales1.test(correo)){
+      msjMostrar += "<br> El correo no debe contener caracteres especiales.";
+      enviar = true;
+    }
+
+    if(enviar){
+  
+      $("#warnings").html(msjMostrar);
+    }
+    else{
+      $("#warnings").html("Usuario registrado!");
+    }
+  })
+})
+console.log(pass);
