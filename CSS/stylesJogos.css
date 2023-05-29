@@ -1,19 +1,14 @@
 
-    #body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
+.cuerpo{
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  font-size: 16px;
+  text-align: right;
+}
 
-    #h1 {
-      color: #FF6900;
-    }
-
-    #p {
-      margin-bottom: 10px;
-    }
-
-    #img {
-      max-width: 100%;
-      height: auto;
-    }
+#apex{
+  max-width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
